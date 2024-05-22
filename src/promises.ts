@@ -1,6 +1,7 @@
 
 
 const promises = () => {
+    //try catch promise
     const doHomework: Promise<string> = new Promise((resolve, reject) => {
         console.log('Statrting my Homework');
         setTimeout(() => {
